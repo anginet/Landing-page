@@ -1,0 +1,140 @@
+/* styles.css */
+
+/* General styles */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, p {
+  margin: 0;
+}
+
+
+.laptop-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Header */
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 28px;
+  margin: 0;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+}
+
+/* Hero Section */
+
+#hero {
+  background-image: url('hero-image.jpg');
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #555;
+}
+
+/* Features Section */
+
+#features {
+  background-color: #f4f4f4;
+  padding: 50px 0;
+}
+
+#features h2 {
+  text-align: center;
+}
+
+#features ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#features li {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Specifications Section */
+
+#specs {
+  padding: 50px 0;
+}
+
+#specs h2 {
+  text-align: center;
+}
+
+/* Pricing Section */
+
+#pricing {
+  background-color: #eee;
+  padding: 50px 0;
+  text-align: center;
+}
+
+#pricing h2 {
+  text-align: center;
+}
+
+/* Footer */
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
